@@ -33,7 +33,7 @@ actor LocationClient {
         return aDecoder
     }()
     
-    private let feedURL = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=25c240778fbbcc3df3fd652ccdf94b58")! // Add lat, Lon, date + key for a request.
+    private let feedURL = URL(string: "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={api_token}}")! // Add lat, Lon, date + key for a request.
     
     private let downloader: any HTTPDataDownloader
     
