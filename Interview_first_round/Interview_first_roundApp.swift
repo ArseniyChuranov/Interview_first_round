@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Interview_first_roundApp: App {
+    
+    @StateObject var locationProvider = LocationProvider()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(locationProvider)
         }
     }
 }

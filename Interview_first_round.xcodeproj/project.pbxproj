@@ -14,6 +14,13 @@
 		AE6D23962C76941D002F6439 /* Interview_first_roundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23952C76941D002F6439 /* Interview_first_roundTests.swift */; };
 		AE6D23A02C76941D002F6439 /* Interview_first_roundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D239F2C76941D002F6439 /* Interview_first_roundUITests.swift */; };
 		AE6D23A22C76941D002F6439 /* Interview_first_roundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23A12C76941D002F6439 /* Interview_first_roundUITestsLaunchTests.swift */; };
+		AE6D23AF2C769548002F6439 /* LocationTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23AE2C769548002F6439 /* LocationTemplate.swift */; };
+		AE6D23B12C769669002F6439 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23B02C769669002F6439 /* CardView.swift */; };
+		AE6D23B52C769BF4002F6439 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23B42C769BF4002F6439 /* LocationDetailView.swift */; };
+		AE6D23B72C76A18A002F6439 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23B62C76A18A002F6439 /* LocationProvider.swift */; };
+		AE6D23B92C76A218002F6439 /* LocationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23B82C76A218002F6439 /* LocationClient.swift */; };
+		AE6D23BB2C76A2B3002F6439 /* HTTPDataDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23BA2C76A2B3002F6439 /* HTTPDataDownloader.swift */; };
+		AE6D23BD2C76A2D3002F6439 /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6D23BC2C76A2D3002F6439 /* LocationError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		AE6D239B2C76941D002F6439 /* Interview_first_roundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Interview_first_roundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6D239F2C76941D002F6439 /* Interview_first_roundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_first_roundUITests.swift; sourceTree = "<group>"; };
 		AE6D23A12C76941D002F6439 /* Interview_first_roundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interview_first_roundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE6D23AE2C769548002F6439 /* LocationTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTemplate.swift; sourceTree = "<group>"; };
+		AE6D23B02C769669002F6439 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AE6D23B42C769BF4002F6439 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		AE6D23B62C76A18A002F6439 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		AE6D23B82C76A218002F6439 /* LocationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationClient.swift; sourceTree = "<group>"; };
+		AE6D23BA2C76A2B3002F6439 /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
+		AE6D23BC2C76A2D3002F6439 /* LocationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +109,14 @@
 			isa = PBXGroup;
 			children = (
 				AE6D23842C76941B002F6439 /* Interview_first_roundApp.swift */,
+				AE6D23B62C76A18A002F6439 /* LocationProvider.swift */,
+				AE6D23B82C76A218002F6439 /* LocationClient.swift */,
+				AE6D23BA2C76A2B3002F6439 /* HTTPDataDownloader.swift */,
+				AE6D23BC2C76A2D3002F6439 /* LocationError.swift */,
+				AE6D23AE2C769548002F6439 /* LocationTemplate.swift */,
 				AE6D23862C76941B002F6439 /* ContentView.swift */,
+				AE6D23B42C769BF4002F6439 /* LocationDetailView.swift */,
+				AE6D23B02C769669002F6439 /* CardView.swift */,
 				AE6D23882C76941D002F6439 /* Assets.xcassets */,
 				AE6D238A2C76941D002F6439 /* Preview Content */,
 			);
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6D23AF2C769548002F6439 /* LocationTemplate.swift in Sources */,
+				AE6D23B52C769BF4002F6439 /* LocationDetailView.swift in Sources */,
 				AE6D23872C76941B002F6439 /* ContentView.swift in Sources */,
+				AE6D23B12C769669002F6439 /* CardView.swift in Sources */,
 				AE6D23852C76941B002F6439 /* Interview_first_roundApp.swift in Sources */,
+				AE6D23B72C76A18A002F6439 /* LocationProvider.swift in Sources */,
+				AE6D23BD2C76A2D3002F6439 /* LocationError.swift in Sources */,
+				AE6D23BB2C76A2B3002F6439 /* HTTPDataDownloader.swift in Sources */,
+				AE6D23B92C76A218002F6439 /* LocationClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

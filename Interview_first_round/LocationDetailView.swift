@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct LocationDetailView: View {
+    @Binding var location: LocationTemplate
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            
+            // Saved for the weather view
+            
+        }
+
     }
 }
 
-#Preview {
-    LocationDetailView()
-}
